@@ -1,7 +1,9 @@
 joke = document.querySelector(".joke");
 btn = document.getElementById("btn");
 
-btn.addEventListener("click",generateJokes)
+btn.addEventListener("click", function(){
+    generateJokes()
+})
 generateJokes()
 
 async function generateJokes(){
