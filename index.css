@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 100%;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(0, 73, 49), -2px -2px 5px rgb(0, 73, 49) ;
+}
+h3{
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+.joke{
+    line-height: 40px;
+    font-size: 30px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+#btn{
+    background-color: black;
+    border: none;
+    color: aquamarine;
+    padding: 14px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#btn:active{
+    transform: scale(0.98);
+}
